@@ -23,7 +23,7 @@ if sys.platform == 'linux' or sys.platform == 'linux2':
 	
 	else:
 		print "Unable to load library _edf.so"
-		exit(0)
+		sys.exit(1)
 
 
 
@@ -34,7 +34,7 @@ elif sys.platform == 'win32':
 
 	else:
 		print "Unable to load library _edf.dll"
-		exit(0)
+		sys.exit(1)
 
 
 
